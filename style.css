@@ -1,0 +1,106 @@
+html body{
+    background-color:cornflowerblue;
+}
+
+
+h1{
+
+    padding-right:100px;
+    padding-left:0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    border: groove;
+    background-color:lightblue;
+
+
+}
+
+.nav a{
+    padding-top: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+
+}
+
+.formular{
+    padding-left: 39%;
+}
+
+.form{
+    display: grid;
+    padding-left: 18%;
+    padding-right: 18%;
+}
+
+.form textarea{
+    height: 200px;
+}
+
+.button{
+    display: block;
+    width: 100px;
+}
+
+
+aside{
+    float: left;
+}
+
+aside ul li{
+    list-style-type: none;
+}
+
+ img{
+    width: 100%;
+}
+
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+
+}
+
+footer ul li a {
+    text-decoration: none;
+
+
+}
+
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+
+.project{
+    display:block;
+    justify-content: center;
+    padding:15px;
+    text-align: center;
+}
+
+.gallery img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.cv{
+    padding-left: 35%;
+}
+
+.cv h2{
+    width:40%;
+    border-bottom: groove;
+}
+
